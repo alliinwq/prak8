@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDrive — Автосервіс</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="#home" class="logo">AUTO<span>DRIVE</span></a>
+            <nav class="navigation">
+                <a href="#home">Головна</a>
+                <a href="#about">Про нас</a>
+                <a href="#services">Послуги</a>
+                <a href="#prices">Ціни</a>
+                <a href="#contacts">Контакти</a>
+            </nav>
+            <a href="tel:+380912345678" class="header-phone">+38 (091) 234-56-78</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-overlay">
+                <div class="container hero-content">
+                    <p class="subtitle">ПРОФЕСІЙНИЙ АВТОСЕРВІС</p>
+                    <h1>ВАШ АВТОМОБІЛЬ<br>У НАДІЙНИХ РУКАХ</h1>
+                    <p class="hero-text">Якісний ремонт, сучасне обладнання та професійні майстри для вашого автомобіля.</p>
+                    <a href="#services" class="button">НАШІ ПОСЛУГИ</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=900" alt="Автомобіль у ремонтній майстерні">
+                </div>
+                <div class="about-text">
+                    <p class="subtitle">ХТО МИ?</p>
+                    <h2>ПРО НАШ АВТОСЕРВІС</h2>
+                    <p>AUTO DRIVE — це сучасний автосервіс, який пропонує якісне обслуговування та ремонт автомобілів різних марок.</p>
+                    <p>Наша команда складається з досвідчених майстрів, які використовують професійне обладнання та відповідально ставляться до кожного автомобіля.</p>
+                    <div class="advantages">
+                        <div><strong>5+</strong><span>Років досвіду</span></div>
+                        <div><strong>1000+</strong><span>Задоволених клієнтів</span></div>
+                        <div><strong>100%</strong><span>Відповідальність</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="subtitle">ЩО МИ ПРОПОНУЄМО</p>
+                    <h2>НАШІ ПОСЛУГИ</h2>
+                    <p>Усе необхідне для справної роботи вашого автомобіля.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Ремонт двигуна</h3>
+                        <p>Діагностика та усунення несправностей двигуна.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🚗</div>
+                        <h3>Діагностика авто</h3>
+                        <p>Перевірка основних систем автомобіля.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚙️</div>
+                        <h3>Ремонт ходової</h3>
+                        <p>Ремонт підвіски та заміна деталей ходової частини.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🛢️</div>
+                        <h3>Заміна мастила</h3>
+                        <p>Заміна моторного мастила та фільтрів.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔋</div>
+                        <h3>Електрика</h3>
+                        <p>Перевірка та ремонт електричних систем авто.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🛞</div>
+                        <h3>Шиномонтаж</h3>
+                        <p>Заміна шин, балансування та ремонт коліс.</p>
+                    </div>
+                </div>
+                <div class="add-service">
+                    <h3>Додати нову послугу</h3>
+
+                    <input type="text" id="service-name" placeholder="Назва послуги">
+
+                    <button id="add-button">Додати послугу</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="prices section" id="prices">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="subtitle">НАШІ РОБОТИ</p>
+                    <h2>ПРАЙС-ЛИСТ</h2>
+                    <p>Основні послуги та їхня вартість.</p>
+                </div>
+                <div class="price-table">
+                    <div class="price-row price-header"><span>Назва послуги</span><span>Вартість</span></div>
+                    <div class="price-row"><span>Комп'ютерна діагностика</span><strong>500 грн</strong></div>
+                    <div class="price-row"><span>Заміна мастила</span><strong>400 грн</strong></div>
+                    <div class="price-row"><span>Ремонт ходової частини</span><strong>Від 800 грн</strong></div>
+                    <div class="price-row"><span>Ремонт двигуна</span><strong>Від 2000 грн</strong></div>
+                    <div class="price-row"><span>Шиномонтаж</span><strong>Від 600 грн</strong></div>
+                    <div class="price-row"><span>Діагностика електрики</span><strong>600 грн</strong></div>
+                </div>
+                <p class="price-note">* Остаточна вартість залежить від складності роботи.</p>
+            </div>
+        </section>
+
+        <section class="schedule section">
+            <div class="container schedule-content">
+                <div>
+                    <p class="subtitle">МИ ПРАЦЮЄМО ДЛЯ ВАС</p>
+                    <h2>ГРАФІК РОБОТИ</h2>
+                    <p>Завітайте до нас у зручний для вас час.</p>
+                </div>
+                <div class="schedule-box">
+                    <div><span>Понеділок – П'ятниця</span><strong>09:00 – 19:00</strong></div>
+                    <div><span>Субота</span><strong>10:00 – 16:00</strong></div>
+                    <div><span>Неділя</span><strong class="closed">Вихідний</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts section" id="contacts">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="subtitle">ЗВ'ЯЖІТЬСЯ З НАМИ</p>
+                    <h2>НАШІ КОНТАКТИ</h2>
+                </div>
+                <div class="contacts-grid">
+                    <div class="contact-card">
+                        <h3>Іван Петренко</h3>
+                        <p>Головний майстер</p>
+                        <a href="tel:+380991234567">+38 (099) 123-45-67</a>
+                    </div>
+                    <div class="contact-card">
+                        <h3>Олександр Коваль</h3>
+                        <p>Автомеханік</p>
+                        <a href="tel:+380671234567">+38 (067) 123-45-67</a>
+                    </div>
+                    <div class="contact-card">
+                        <h3>Андрій Мельник</h3>
+                        <p>Автоелектрик</p>
+                        <a href="tel:+380501234567">+38 (050) 123-45-67</a>
+                    </div>
+                </div>
+                <div class="address">
+                    <p><strong>Адреса:</strong> м. Луцьк, вул. Автомобільна, 10</p>
+                    <p><strong>Email:</strong> autodrive@example.com</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container" style="text-align: center;">
+                <h2>Інтерактивність сайту</h2>
+
+                <button id="style-button" class="button">
+                    Змінити стиль сторінки
+                </button>
+
+                <button id="message-button" class="button">
+                    Отримати повідомлення
+                </button>
+
+                <p id="message"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">AUTO<span>DRIVE</span></a>
+            <p>© 2026 AUTO DRIVE. Усі права захищені.</p>
+            <a href="#home">На початок ↑</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
